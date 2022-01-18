@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>zny</title>
+  
+  <subtitle>zny</subtitle>
+  <link href="https://zny-yy.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://zny-yy.github.io/"/>
+  <updated>2022-01-15T06:07:42.115Z</updated>
+  <id>https://zny-yy.github.io/</id>
+  
+  <author>
+    <name>zny</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试文章</title>
+    <link href="https://zny-yy.github.io/2022/01/15/ce-shi-wen-zhang/"/>
+    <id>https://zny-yy.github.io/2022/01/15/ce-shi-wen-zhang/</id>
+    <published>2022-01-15T06:04:47.000Z</published>
+    <updated>2022-01-15T06:07:42.115Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这是测试文章，看看搭建网站的使用。&lt;/p&gt;
+&lt;img src=&quot;/2022/01/15/ce-shi-wen-zhang/test.jpg&quot; class=&quot;&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="生活" scheme="https://zny-yy.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="原创" scheme="https://zny-yy.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://zny-yy.github.io/2022/01/15/hello-world/"/>
+    <id>https://zny-yy.github.io/2022/01/15/hello-world/</id>
+    <published>2022-01-15T05:50:33.476Z</published>
+    <updated>2022-01-15T01:38:31.633Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
