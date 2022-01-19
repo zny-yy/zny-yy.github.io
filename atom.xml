@@ -6,7 +6,7 @@
   <link href="https://zny-yy.github.io/atom.xml" rel="self"/>
   
   <link href="https://zny-yy.github.io/"/>
-  <updated>2022-01-15T06:07:42.115Z</updated>
+  <updated>2022-01-19T07:16:06.342Z</updated>
   <id>https://zny-yy.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>markdown学习记录</title>
+    <link href="https://zny-yy.github.io/2022/01/19/markdown-xue-xi-ji-lu/"/>
+    <id>https://zny-yy.github.io/2022/01/19/markdown-xue-xi-ji-lu/</id>
+    <published>2022-01-19T02:06:53.000Z</published>
+    <updated>2022-01-19T07:16:06.342Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Markdown的学习记录&quot;&gt;&lt;a href=&quot;#Markdown的学习记录&quot; class=&quot;headerlink&quot; title=&quot;Markdown的学习记录&quot;&gt;&lt;/a&gt;Markdown的学习记录&lt;/h1&gt;&lt;h2 id=&quot;Markdown-简介&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://zny-yy.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="写作" scheme="https://zny-yy.github.io/categories/%E6%8A%80%E6%9C%AF/%E5%86%99%E4%BD%9C/"/>
+    
+    
+    <category term="原创" scheme="https://zny-yy.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
+    
+    <category term="markdown" scheme="https://zny-yy.github.io/tags/markdown/"/>
+    
+  </entry>
   
   <entry>
     <title>测试文章</title>
