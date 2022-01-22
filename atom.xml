@@ -3,11 +3,11 @@
   <title>zny</title>
   
   <subtitle>zny</subtitle>
-  <link href="https://zny-yy.github.io/atom.xml" rel="self"/>
+  <link href="https://znyworld.top/atom.xml" rel="self"/>
   
-  <link href="https://zny-yy.github.io/"/>
+  <link href="https://znyworld.top/"/>
   <updated>2022-01-19T15:50:51.230Z</updated>
-  <id>https://zny-yy.github.io/</id>
+  <id>https://znyworld.top/</id>
   
   <author>
     <name>zny</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>markdown学习记录</title>
-    <link href="https://zny-yy.github.io/2022/01/19/markdown-xue-xi-ji-lu/"/>
-    <id>https://zny-yy.github.io/2022/01/19/markdown-xue-xi-ji-lu/</id>
+    <link href="https://znyworld.top/2022/01/19/markdown-xue-xi-ji-lu/"/>
+    <id>https://znyworld.top/2022/01/19/markdown-xue-xi-ji-lu/</id>
     <published>2022-01-19T02:06:53.000Z</published>
     <updated>2022-01-19T15:50:51.230Z</updated>
     
@@ -34,21 +34,21 @@
     
     
     
-    <category term="技术" scheme="https://zny-yy.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://znyworld.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
-    <category term="写作" scheme="https://zny-yy.github.io/categories/%E6%8A%80%E6%9C%AF/%E5%86%99%E4%BD%9C/"/>
+    <category term="写作" scheme="https://znyworld.top/categories/%E6%8A%80%E6%9C%AF/%E5%86%99%E4%BD%9C/"/>
     
     
-    <category term="原创" scheme="https://zny-yy.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
+    <category term="原创" scheme="https://znyworld.top/tags/%E5%8E%9F%E5%88%9B/"/>
     
-    <category term="markdown" scheme="https://zny-yy.github.io/tags/markdown/"/>
+    <category term="markdown" scheme="https://znyworld.top/tags/markdown/"/>
     
   </entry>
   
   <entry>
     <title>测试文章</title>
-    <link href="https://zny-yy.github.io/2022/01/15/ce-shi-wen-zhang/"/>
-    <id>https://zny-yy.github.io/2022/01/15/ce-shi-wen-zhang/</id>
+    <link href="https://znyworld.top/2022/01/15/ce-shi-wen-zhang/"/>
+    <id>https://znyworld.top/2022/01/15/ce-shi-wen-zhang/</id>
     <published>2022-01-15T06:04:47.000Z</published>
     <updated>2022-01-15T06:07:42.115Z</updated>
     
@@ -64,17 +64,17 @@
     
     
     
-    <category term="生活" scheme="https://zny-yy.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://znyworld.top/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-    <category term="原创" scheme="https://zny-yy.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
+    <category term="原创" scheme="https://znyworld.top/tags/%E5%8E%9F%E5%88%9B/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://zny-yy.github.io/2022/01/15/hello-world/"/>
-    <id>https://zny-yy.github.io/2022/01/15/hello-world/</id>
+    <link href="https://znyworld.top/2022/01/15/hello-world/"/>
+    <id>https://znyworld.top/2022/01/15/hello-world/</id>
     <published>2022-01-15T05:50:33.476Z</published>
     <updated>2022-01-15T01:38:31.633Z</updated>
     
