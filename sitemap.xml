@@ -119,20 +119,6 @@
 
   
   <url>
-    <loc>https://www.znyworld.top/tags/%E5%8E%9F%E5%88%9B/</loc>
-    <lastmod>2022-01-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.znyworld.top/tags/markdown/</loc>
-    <lastmod>2022-01-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.znyworld.top/tags/hexo/</loc>
     <lastmod>2022-01-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -146,7 +132,28 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://www.znyworld.top/tags/%E5%8E%9F%E5%88%9B/</loc>
+    <lastmod>2022-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.znyworld.top/tags/markdown/</loc>
+    <lastmod>2022-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://www.znyworld.top/categories/hexo/</loc>
+    <lastmod>2022-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://www.znyworld.top/categories/%E6%8A%80%E6%9C%AF/</loc>
@@ -163,21 +170,14 @@
   </url>
   
   <url>
-    <loc>https://www.znyworld.top/categories/%E6%8A%80%E6%9C%AF/%E5%86%99%E4%BD%9C/</loc>
-    <lastmod>2022-01-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.znyworld.top/categories/hexo/</loc>
-    <lastmod>2022-01-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.znyworld.top/categories/hexo/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2022-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.znyworld.top/categories/%E6%8A%80%E6%9C%AF/%E5%86%99%E4%BD%9C/</loc>
     <lastmod>2022-01-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
