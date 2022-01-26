@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.znyworld.top/2022/01/15/ce-shi-wen-zhang/</loc>
+    <loc>https://www.znyworld.top/2022/01/27/hexo-matery-tu-pian-jia-zai-you-hua/</loc>
     
-    <lastmod>2022-01-25</lastmod>
+    <lastmod>2022-01-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +13,16 @@
   <url>
     <loc>https://www.znyworld.top/2022/01/19/markdown-xue-xi-ji-lu/</loc>
     
-    <lastmod>2022-01-19</lastmod>
+    <lastmod>2022-01-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.znyworld.top/2022/01/15/ce-shi-wen-zhang/</loc>
+    
+    <lastmod>2022-01-25</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -123,14 +132,21 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://www.znyworld.top/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://www.znyworld.top/tags/hexo/</loc>
     <lastmod>2022-01-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
+  
+  <url>
+    <loc>https://www.znyworld.top/tags/%E5%9B%BE%E7%89%87%E6%87%92%E5%8A%A0%E8%BD%BD/</loc>
+    <lastmod>2022-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
   
   <url>
     <loc>https://www.znyworld.top/categories/%E6%8A%80%E6%9C%AF/</loc>
@@ -140,7 +156,28 @@
   </url>
   
   <url>
+    <loc>https://www.znyworld.top/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2022-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.znyworld.top/categories/%E6%8A%80%E6%9C%AF/%E5%86%99%E4%BD%9C/</loc>
+    <lastmod>2022-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.znyworld.top/categories/hexo/</loc>
+    <lastmod>2022-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.znyworld.top/categories/hexo/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2022-01-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
