@@ -152,6 +152,49 @@
     
   </li>
   
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-list" style="zoom: 0.6;"></i>
+      
+      <span>多媒体</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/music">
+          
+          <i class="fas fa-music" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>音乐</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/movies">
+          
+          <i class="fas fa-film" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>电影</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/books">
+          
+          <i class="fas fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>书单</span>
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
   <li>
     <a href="#searchModal" class="modal-trigger waves-effect waves-light">
       <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
@@ -255,6 +298,51 @@
 			
 			友情链接
 		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-list"></i>
+			
+			多媒体
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/music " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-music" style="position: absolute;left:50px" ></i>
+			      
+		          <span>音乐</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/movies " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-film" style="position: absolute;left:50px" ></i>
+			      
+		          <span>电影</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/books " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-book" style="position: absolute;left:50px" ></i>
+			      
+		          <span>书单</span>
+                  </a>
+                </li>
+              
+            </ul>
           
         </li>
         
@@ -415,6 +503,103 @@
             </div>
             <!--valine评论弹幕-->
             
+                <p>
+                    <b>畅所欲言</b><br>
+                    <b>在这里可以留下你的足迹，欢迎在下方留言，欢迎交换友链</b><br>
+                    <b>友链信息</b><br>
+                    <b>博客名称: zny-yy</b><br>
+                    <b>博客网址: http://blog.znyworld.top</b><br>
+                    <b>博客头像: http://blog.znyworld.top/medias/logo.png</b><br>
+                    <b>博客介绍: 犹豫就会败北</b><br>
+                </p>
+                <div class="container">
+                    <section id="custom" class="bb-section">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <form class="form-inline">
+                                    <div class="form-group">
+                                        文字：<input class="form-control" name="info" type="text" placeholder="hello, world"/>
+                                    </div>
+                                    <div class="form-group">
+                                        链接：<input class="form-control" name="href" type="text" placeholder="https://github.com/blinkfox/hexo-theme-matery"/>
+                                    </div>
+                                    <div class="form-group">
+                                        速度：<input  class="form-control"  name="speed" type="text" placeholder="5~20" value="16" />
+                                    </div>
+                                </form>
+                                <div class="form-group">
+                                    <button id="send"  class="btn" onclick="run()">留言</button>
+                                    <button id="clear" class="btn " onclick="clear_barrage()"> 清除</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <script type="text/javascript">
+                    AV.init({
+                        appId: 'bRnhKXbwrt5iMi5abjoQUsbp-gzGzoHsz',
+                        appKey: 'AjRNAHqHm0LGah5mLURq0BFe'
+                    });
+
+                    $(function() {
+                        do_barrager();
+                        async function do_barrager() {
+                            let lists = [];
+                            //查询弹幕
+                            const query = new AV.Query('barrager');
+                            const barrager = await query.find().then((barrager) => {
+                                lists = barrager;
+                            })
+                            let length = lists.length;
+                            let index = 0;
+                            const timer = setInterval(() => {
+                                if (index === length) {
+                                    clearInterval(timer);
+                                    do_barrager()
+                                } else {
+                                    let obj = lists[index]
+                                    let jsonObject = eval('(' + JSON.stringify(obj) + ')');
+                                    $('body').barrager({
+                                        'img': '/medias/barrager/' + Math.floor(Math.random() * 3) + ".png",
+                                        'href': jsonObject.href,
+                                        'info': jsonObject.info,
+                                        'speed': jsonObject.speed
+                                    });
+                                    index++;
+                                }
+                            }, 500)
+                        }
+                    });
+
+                    //发送弹幕
+                    function  run(){
+                        let info = $('input[name=info]').val();
+                        (info === '' ) ?  info='hello world' : info=info;
+                        let href = $('input[name=href]').val();
+                        (href === '' ) ?  href='https://github.com/blinkfox/hexo-theme-matery' : href=href;
+                        let speed = parseInt($('input[name=speed]').val());
+                        if(speed > 20 || speed < 5)
+                            speed = Math.floor(Math.random() * 10) + 5;
+                        const Barrager = AV.Object.extend('barrager');
+                        const barrager = new Barrager();
+                        barrager.set('href', href);
+                        barrager.set('info', info);
+                        barrager.set('speed', speed);
+                        barrager.save().then((todo) => {
+                            $(" input[ name='info' ] ").val("")
+                            $(" input[ name='href' ] ").val("")
+                            $(" input[ name='speed' ] ").val("")
+                        });
+                    }
+
+                    function  clear_barrage()
+                    {
+                        $.fn.barrager.removeAll();
+                    }
+
+                </script>
+            
         </div>
 
         <!--其他评论card-->
@@ -508,7 +693,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">732</span>
+                        class="white-color">1k</span>
             
             
             
@@ -802,6 +987,16 @@ $(function () {
 
     <!-- Baidu Analytics -->
 
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?1912e1d6bbfd0e8411900fcc10eeb958";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
     <!-- Baidu Push -->
 
 <script>
@@ -841,6 +1036,6 @@ $(function () {
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
-</body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/hibiki.model.json"},"display":{"position":"right","width":150,"height":300,"hOffset":50,"vOffset":-5},"mobile":{"show":false,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.8},"log":false});</script><script src="/js/markmap.js"></script></body>
 
 </html>
